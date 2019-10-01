@@ -11,8 +11,10 @@ import javax.persistence.Table;
 import com.mentormate.sales.common.entity.BaseEntity;
 import com.mentormate.sales.orderservice.common.OrderDetails;
 import io.eventuate.tram.events.publisher.ResultWithEvents;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Data
 @NoArgsConstructor
 @Entity
 @Table(name="orders")
