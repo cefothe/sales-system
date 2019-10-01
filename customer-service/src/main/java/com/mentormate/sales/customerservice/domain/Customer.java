@@ -11,7 +11,9 @@ import javax.persistence.Table;
 
 import com.mentormate.sales.common.entity.BaseEntity;
 import com.mentormate.sales.common.value.Money;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name="Customer")
 public class Customer extends BaseEntity {
