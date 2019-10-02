@@ -16,10 +16,6 @@ class OrdersSpec extends Specification {
     Customer customer
     int customerId
 
-    def setup() {
-
-    }
-
     @Issue("OrdersJiraStoryLink-1")
     @See("LinkWithMoreInfoForTheStory-1")
     def createOrder() {
